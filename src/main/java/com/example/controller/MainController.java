@@ -1,5 +1,6 @@
 package com.example.controller;
 
+<<<<<<< HEAD
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,4 +18,8 @@ public class MainController {
 		logger.info("Hello ehddnkim");
 		return "{\"msg\":\"OK\"}";
 	}
+=======
+public class MainController {
+
+>>>>>>> parent of 01aba89 (이름 추가)
 }
