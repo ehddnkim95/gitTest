@@ -17,4 +17,8 @@ public class MainController {
 		logger.info("Hello ehddnkim");
 		return "{\"msg\":\"OK\"}";
 	}
+	@GetMapping(value = "/list")
+	public String list() {
+		return "";
+	}
 }
